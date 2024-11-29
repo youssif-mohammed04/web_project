@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .category {
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .error {
+      color: red;
+    }
+
+    /* Card CSS */
+
+    /* General styles */
+  
+  /* Card container */
+  .card {
+    background-color: #222; /* Dark card background */
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden; /* Ensure the content fits inside */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+  }
+  
+  /* Card image section */
+  .card-image {
+    background-color: #777; /* Placeholder image background */
+    color: #ddd; /* Light text */
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+  
+  /* Card body */
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  /* Card list */
+  .card-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #444; /* Separate the list from the body */
+  }
+  
+  .card-list li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #444;
+  }
+  
+  .card-list li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Card footer (links section) */
+  .card-footer {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #444; /* Separate the footer from the list */
+  }
+  
+  .card-link {
+    text-decoration: none;
+    color: #4CAF50; /* Green links */
+    font-size: 14px;
+  }
+  
+  .card-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
